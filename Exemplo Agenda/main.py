@@ -27,6 +27,7 @@ def imprimirCompromissos(entrevistador_object):
     entrevistador_object.getCompromissos()
 
 ################# DEBUG
+"""
 os.system("clear")
 
 print("\n--------------\n")
@@ -45,9 +46,8 @@ criarCompromisso(pessoa, "Cuidar do Arthur",str(datetime.datetime.now()))
 imprimirCompromissos(pessoa)
 
 print("\n--------------\n") 
-
-
 """
+
 objs = list()
 
 while True:
@@ -81,4 +81,3 @@ while True:
 
     if int(option) == 0:
         break
-"""
